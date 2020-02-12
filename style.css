@@ -1,0 +1,735 @@
+@charset UTF-8;
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*メインビジュアル*/
+/*全ての要素にpadding-bottom: 100pxいれる*/
+.title{
+
+	padding-bottom: 100px;
+}
+
+.title img{
+
+	width: 100%;
+
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/*空白のクラス（土台）*/
+.MAIN{
+
+	width: 100%;
+}
+
+.main{
+
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+
+
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.discription{
+
+	text-align: center;
+	padding-bottom:100px;
+}
+
+.discription img{
+
+	width: 400px;
+
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/*地図*/
+
+.map{
+
+	padding-bottom: 100px;
+}
+
+.map .where {
+
+	padding: 50px 0;
+
+}
+.map .where img{
+
+	width: 250px;
+
+}
+
+.map .map_img{
+
+	text-align: center;
+
+}
+
+.map .map_img img{
+
+	width: 681px;
+	text-align: center;
+
+}
+
+ .map{
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+  }
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/*経路*/
+
+/*クラス全体*/
+.route{
+
+	margin: 0 auto;
+}
+
+/*Let's go*/
+.route img{
+
+	width: 250px;
+	padding:20px 0;
+
+}
+
+.road{
+
+	width: 681px;
+	height: 1100px;
+	margin: 0 auto;
+}
+
+/*青の道*/
+.blue_line img{
+
+	width: 681px;
+	height: 100%;
+
+}
+
+.blue_line{
+	/*画像を重ねる*/
+	position: relative;
+	text-align: center;
+	height: 842px;
+
+}
+
+/*飛行機*/
+.icon_1{
+
+	position: absolute;
+	left: 30%;
+	top: -5%;
+
+	/*アニメーション設定*/
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+  }
+
+
+.icon_1 img{
+
+	width: 100px;
+	height: 50px;
+}
+
+/*大分空港*/
+.icon_2{
+
+	position: absolute;
+	top: 10%;
+	left: 0%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_2 img{
+
+	width: 271px;
+	height: 177px;
+}
+
+/*車１*/
+.icon_3{
+
+	position: absolute;
+	left: 20%;
+	top:35%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_3 img{
+
+	width: 100px;
+	height: 50px;
+}
+
+/*佐伯駅*/
+.icon_4{
+
+	position: absolute;
+	left: 50%;
+	top: 40%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_4 img{
+
+	width: 308px;
+	height: 158px;
+}
+
+/*車２*/
+.icon_5{
+
+	position: absolute;
+	left: 50%;
+	top:65%;
+	
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_5 img{
+
+	width: 100px;
+	height: 50px;
+}
+
+/*時刻表*/
+.icon_6_1{
+
+	position: absolute;
+	top: 65%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_6_1 img{
+
+	width: 150px;
+	height: 80px;
+}
+
+/*佐伯港*/
+.icon_6_2{
+
+	position: absolute;
+	top: 70%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_6_2 img{
+
+	width: 276px;
+	height: 200px;
+}
+
+/*フェリー*/
+.icon_7{
+
+	position: absolute;
+	left: 45%;
+	top:90%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.icon_7 img{
+
+	width: 100px;
+	height: 50px;
+}
+
+/*到着*/
+.icon_8{
+
+	position: absolute;
+	left: 70%;
+	top: 80%;
+
+}
+.icon_8 img{
+
+	width: 210px;
+	height: 304px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*画像１枚→クラス全体をtext-align: center、
+681px以内*/
+
+/*サブタイトル*/
+.contents_1 .subtitle{
+
+	width: 100%;
+	text-align: center;
+/*	padding-bottom: 100px;*/
+}
+
+.contents_1 .subtitle img{
+
+	width: 500px;
+	height: 45px;
+
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*theme_1*/
+
+
+/*青壁紙*/
+.contents_1 .background {
+
+	position: relative;
+	height: 955px;
+	text-align: center;
+
+}
+.contents_1 .background img{
+
+	width: 681px;
+	height: 955px;	
+}
+
+/*海*/
+/*テープも一緒に画像にしているため青壁紙とずれる*/
+/*left: -8%で補正、topはズレたまま*/
+
+.contents_1 .relative_block .pctures{
+
+	position: absolute;
+    top: -4.6%;
+    left: 10.44999924%;
+
+}
+.contents_1 .relative_block .pctures img{
+
+	width: 737px;
+	height: 1000px;
+}
+
+/*text*/
+.contents_1 .relative_block .text{
+
+	position: absolute;
+	left: 55%;
+	top: 25%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+.contents_1 .relative_block .text img{
+
+	width: 200px;
+	height:120px;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*theme_2*/
+
+/*緑壁紙*/
+.contents_2  .background {
+
+	position: relative;
+	height: 936.5px;
+	text-align: center;
+
+}
+.contents_2  .background img{
+
+	width: 681px;
+	height: 936.5px;	
+}
+
+.contents_2 .relative_block .pctures{
+
+	position: absolute;
+left: 16.5%;
+	top: 0;
+
+
+}
+.contents_2 .relative_block .pctures img{
+
+	width: 737px;
+	height: 1000px;
+}
+
+/*text*/
+.contents_2 .relative_block .text{
+
+	position: absolute;
+	left: 22%;
+	top: 10%;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+}
+.contents_2 .relative_block .text img{
+
+	width: 200px;
+	height:180px;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*サブタイトル２*/
+.subtitle{
+
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.subtitle img{
+
+	width: 500px;
+	height: 35px;
+
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*チェキ*/
+.photos {
+
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+.photos img{
+
+	width: 681px;
+	text-align: center;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*フッダー全体*/
+.hooder{
+
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+/*宿泊施設*/
+.contens_1{
+
+	position: absolute;
+	top: 37.4%;
+	left: 8.1466296%;
+}
+/*みちょくれ*/
+.contens_2{
+
+	position: absolute;
+	top: 41%;
+	left: 36.6511466%;
+}
+/*オルレ*/
+.contens_3{
+
+	position: absolute;
+	top: 45%;
+	left: 65.1556637%;
+}
+/*鉛筆*/
+.hooder .hand{
+
+	right: 0%;
+	position: absolute;
+
+}
+.hooder .hand img{
+
+	width: 250px;
+	height: 250px;
+
+}
+
+.name{
+
+	text-align: center;
+	padding:10px;
+
+}
+
+.name img{
+
+	height: 10px;
+
+}
+
+/*================================================
+Tablet : 画面の横幅が768pxまで
+==================================================*/
+@media screen and (max-width: 768px){
+
+
+}
+/*================================================
+Smartphone :  画面の横幅が640pxまで
+=================================================*/
+@media screen and (max-width:640px){
+
+.main{
+
+	width: 375px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+.title{
+
+	padding-bottom: 50px;
+}	
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.discription img{
+
+	width: 200px;
+
+}
+.discription {
+    text-align: center;
+    padding-bottom: 50px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.subtitle {
+    padding-top: 20px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*地図*/
+.map .where img {
+    width: 180px;
+}
+.map .where {
+    padding: 25px 0;
+}
+.map .map_img img {
+    width: 250px;
+    text-align: center;
+}
+.map {
+    padding-bottom: 50px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*経路*/
+.route img {
+    width: 200px;
+    padding: 30px 0;
+}
+.road {
+    width: 375px;
+    height: 700px;
+    margin: 0 auto;
+}
+.blue_line {
+    position: relative;
+    text-align: center;
+    height: 500px;
+}
+.blue_line img {
+    width: 375px;
+    height: 100%;
+}
+.icon_1 img {
+    width: 50px;
+    height: 40px;
+}
+.icon_2 img {
+    width: 170px;
+    height: 111px;
+}
+.icon_3 img {
+    width: 65px;
+    height: 40px;
+}
+.icon_4 img {
+    width: 170px;
+    height: 87px;
+}
+.icon_5 img {
+    width: 65px;
+    height: 40px;
+}
+.icon_6_1 img {
+    width: 140px;
+    height: 50px;
+}
+.icon_6_2 img {
+    width: 170px;
+    height: 123px;
+}
+.icon_7 img {
+    width: 65px;
+    height: 40px;
+}
+.icon_8 img {
+    width: 100px;
+    height: 192px;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*大入島を満喫しよう！*/
+
+/*海*/
+.contents_1 .subtitle img {
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+.contents_1 .background {
+    position: relative;
+    height: 572px;
+    text-align: center;
+    width: 100%;
+}
+/*青壁紙*/
+.contents_1 .background img {
+    width: 320px;
+    height: 572px;
+}
+/*海の写真*/
+.contents_1 .relative_block .pctures img {
+    width: 344.38px;
+    height: 600px;
+}
+.contents_1 .relative_block .pctures {
+    position: absolute;
+    top: -4.7%;
+    left: 0.8%;
+}
+/*文章*/
+.contents_1 .relative_block .text {
+    position: absolute;
+	left: 50%;
+    top: 25%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+.contents_1 .relative_block .text img {
+    width: 150px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*自然*/
+
+.contents_2 .background {
+    position: relative;
+    height: 600.5px;
+    text-align: center;
+    width: 100%;
+}
+/*緑壁紙*/
+.contents_2 .background img {
+    width: 320px;
+    height: 580.44px;
+}
+.contents_2 .relative_block .pctures {
+    position: absolute;
+    left: 7.59999%;
+    top: 0;
+}
+.contents_2 .relative_block .pctures img {
+    width: 332px;
+    height: 621px;
+}
+.contents_2 .relative_block .text {
+    position: absolute;
+ 	left: 9%;
+    top: 11%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+.contents_2 .relative_block .text img {
+    width: 120px;
+    height: 120px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*チェキ*/
+.subtitle img {
+    width: 100%;
+}
+.photos img {
+    width: 70%;
+    text-align: center;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.hooder {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.contens_1 img {
+    width: 85px;
+}
+.contens_2 img {
+    width: 85px;
+}
+.contens_3 img {
+    width: 85px;
+}
+.hooder .hand {
+    right: 9%;
+    position: absolute;
+}
+.hooder .hand img{
+	width: 60px;
+    height: 60px;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.name img {
+    height: 5px;
+}
+}
